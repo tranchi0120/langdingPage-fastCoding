@@ -1,0 +1,22 @@
+.footer {
+  padding-top: 33px;
+  background-color: $bgr_header;
+  padding-bottom: 22px;
+  &-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  &-icon {
+    color: #cccccc;
+  }
+  &-text {
+    font-size: 12px;
+    font-family: $font-openSans;
+    font-weight: 400;
+    color: $color_text;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

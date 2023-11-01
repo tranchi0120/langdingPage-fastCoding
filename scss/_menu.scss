@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  &-link {
+    font-family: $font-openSans;
+    font-weight: 600;
+    color: $color_menu;
+  }
+}

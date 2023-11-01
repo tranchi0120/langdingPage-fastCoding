@@ -1,0 +1,87 @@
+.contact {
+  padding-top: 108px;
+  padding-bottom: 80px;
+  &-title {
+    font-size: 36px;
+    line-height: 43px;
+    font-family: $font-Raleway;
+    font-weight: 400;
+    padding-bottom: 30px;
+    position: relative;
+    color: $color_title;
+    text-align: center;
+  }
+
+  &-title::before {
+    position: absolute;
+    left: 47%;
+    bottom: 0;
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: $bgr_tabActive;
+  }
+
+  &-text {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: $font-openSans;
+    font-weight: 400;
+    color: $color_text;
+    margin-top: 30px;
+  }
+  &-input {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 43px;
+  }
+  &-inputText {
+    border: none;
+    width: 527px;
+    padding: 11px 13px;
+    color: #bdbdbd;
+    outline: none;
+    border-bottom: 1px solid #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $font-openSans;
+  }
+  &-box:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  &-chat {
+    width: 527px;
+    height: 186px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $font-openSans;
+    outline: none;
+  }
+
+  &-btn {
+    width: 148px;
+    height: 64px;
+    background-color: $bgr_tabActive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color_white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: $font-openSans;
+    font-weight: 600;
+    margin-top: 43px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,71 @@
+.hero {
+  background-color: #f5f5f5;
+  padding-top: 147px;
+  padding-bottom: 116px;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-boxTab {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+  }
+  &-tab {
+    width: 112px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: $bgr_tab;
+    color: $color_white;
+    font-family: $font-openSans;
+    font-weight: 700;
+  }
+
+  &-col:first-child {
+    display: flex;
+    gap: 100px;
+    font-family: $font-openSans;
+  }
+  &-content {
+    &__title {
+      font-size: 20px;
+      font-weight: 700;
+      color: $color_title;
+      margin-bottom: 52px;
+    }
+    // &__texts {
+    //   display: flex;
+    //   align-items: center;
+    //   flex-direction: column;
+    //   gap: 27px;
+    // }
+    &__text {
+      display: flex;
+      align-items: center;
+      width: 480px;
+      color: $color_text;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    &__btn {
+      margin-top: 52px;
+      width: 120px;
+      height: 46px;
+      border: none;
+      border-radius: 5px;
+      color: $color_white;
+      background-color: $bgr_tabActive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.tabActive {
+  background: $bgr_tabActive !important;
+}

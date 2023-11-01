@@ -1,0 +1,15 @@
+.header {
+  background-image: url(../images/background-hero.png);
+  height: 712px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &-bar {
+    background-color: $bgr_header;
+  }
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+  }
+}
