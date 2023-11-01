@@ -1,0 +1,199 @@
+@media only screen and (max-width: 1566px) {
+  .container {
+    padding: 0 20px !important;
+  }
+
+  .hero {
+    &-col:first-child {
+      gap: 50px;
+    }
+  }
+
+  .listSection {
+    &-main {
+      gap: 100px;
+    }
+    &-image {
+      margin-left: 0;
+    }
+    &-text {
+      max-width: 360px;
+    }
+    &-textList {
+      max-width: 310px;
+    }
+  }
+
+  .pictureSection {
+    &-main {
+      gap: 100px;
+    }
+    &-image {
+      margin-right: -20px;
+    }
+  }
+
+  .contact {
+    &-chat {
+      width: 360px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1336px) {
+  .banner {
+    gap: 30px;
+    &-title,
+    &-text {
+      width: 340px;
+    }
+  }
+
+  .hero {
+    &-main {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .listSection {
+    &-main {
+      flex-direction: column;
+    }
+    &-text {
+      max-width: 100%;
+    }
+    &-row:last-child {
+      margin-top: 0;
+    }
+    &-group {
+      display: flex;
+      gap: 30px;
+    }
+  }
+
+  .pictureSection {
+    &-main {
+      gap: 0;
+    }
+  }
+
+  .contact {
+    &-input {
+      flex-direction: column;
+    }
+    &-chat {
+      width: 527px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    &-box {
+      width: 100%;
+    }
+  }
+
+  .hero {
+    &-main {
+      gap: 30px;
+    }
+    &-boxTab {
+      flex-direction: row;
+      gap: 20px;
+    }
+    &-col:first-child {
+      flex-direction: column;
+    }
+  }
+
+  .pictureSection {
+    &-main {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .banner {
+    flex-direction: column;
+    align-items: normal;
+    &-title,
+    &-text {
+      width: 100%;
+    }
+    &-col:last-child {
+      margin-top: 0;
+    }
+    &-box {
+      width: 360px;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+    &-title,
+    &-text {
+      width: 100%;
+    }
+    &-col:last-child {
+      margin-top: 0;
+    }
+    &-box {
+      width: 320px;
+    }
+  }
+
+  .hero {
+    &-col:last-child {
+      text-align: center;
+    }
+    &-main {
+      align-items: normal;
+    }
+    &-content {
+      &__text {
+        width: 100%;
+      }
+    }
+  }
+
+  .listSection {
+    width: 100%;
+    &-main {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
+    &-row {
+      align-items: normal;
+    }
+    &-group {
+      flex-direction: column-reverse;
+    }
+    &-image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .contact {
+    &-inputText,
+    &-chat {
+      width: 345px;
+    }
+  }
+
+  .utilities {
+    &-group {
+      flex-direction: column;
+    }
+  }
+  .pictureSection {
+    &-image {
+      width: 100%;
+    }
+  }
+}

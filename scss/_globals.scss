@@ -1,7 +1,13 @@
+@import "variable";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -23,4 +29,27 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.scroll-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: $bgr_tabActive;
+  color: #ffffff;
+  border-radius: 10px;
+  position: fixed;
+  bottom: -20%;
+  right: 30px;
+  transition: 0.4s;
+  z-index: 10;
+  visibility: hidden;
+}
+
+.show-scroll {
+  bottom: 50px;
+  visibility: visible;
 }
